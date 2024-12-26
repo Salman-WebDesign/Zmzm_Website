@@ -91,7 +91,7 @@
 }
 
 .owl-carousel .owl-nav {
-    left: 48px !important;
+    left: 24px !important;
     padding-bottom: 64px;
 }
 
@@ -113,7 +113,8 @@
     
 }
 .ps-section__carousel{
-    padding-left: 24px;
+    padding-left: 4px;
+
 }
 .ps-product {
     background-color: #fff;
@@ -135,7 +136,10 @@
     animation: grow 15s linear infinite;
     -webkit-animation: grow 15s linear infinite;
 }
-
+.slider-two .container{
+    display: flex;
+    justify-content: center;
+}
 #myCarousel2 {
     background: transparent;
     border-radius: 8px;
@@ -431,7 +435,7 @@
 .accordion-trigger::after {
     content: "";
     position: absolute;
-    right: 65rem;
+    right: 82rem;
     display: block;
     border: solid currentcolor;
     height: 10px;
@@ -545,10 +549,11 @@
 .er-title{
     text-align: center;
     width: 100%;
-    background: #e7e9f078;
+    background: #ffff;
     padding-top: 6px;
     padding-bottom: 6px;
     margin-top: 12px;
+    box-shadow: 0 2px 14px #00000014;
 }
 .er-title .btn{
     background: transparent;
@@ -559,5 +564,13 @@
 .read-more .card-body {
     padding: 0.25rem !important;
     border: none !important;
+    background: transparent;
 }
 /* ps-product__details */
+
+.send-button{
+    position: absolute;
+    right: 15%;
+    top: 63rem;
+    padding: 6px 10px 6px 9px;
+}

@@ -148,7 +148,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 550px;
+  min-height: 600px;
   background-size: cover;
 }
 @media only screen and (max-width: 1199px) {
@@ -327,8 +327,8 @@
 }
 @media only screen and (min-width: 1600px) and (max-width: 1920px) {
   .main-slider-large-thumb .single-slide .product-price {
-    top: 100px;
-    left: 200px;
+    top: 85px;
+    left: 0px;
   }
 }
 
