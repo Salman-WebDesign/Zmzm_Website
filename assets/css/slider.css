@@ -120,6 +120,8 @@
 }
 .main-slider-content .shop-btn a:last-child {
   margin-right: 0;
+  padding: 10px 14px 10px 14px;
+  border-radius: 8px;
 }
 .main-slider-content .slick-slide.slick-current .subtitle {
   animation: 800ms ease-in-out 0s normal none 1 running customOne;
@@ -129,6 +131,7 @@
 }
 .main-slider-content .slick-slide.slick-current .shop-btn {
   animation: 1200ms ease-in-out 0s normal none 1 running customOne;
+  padding-left: 6rem;
 }
 .main-slider-content .slick-slide.slick-current .item-rating {
   animation: 1200ms ease-in-out 0s normal none 1 running customOne;
@@ -449,4 +452,8 @@
 
 .shop-btn i{
    margin-left: 8px;
+}
+
+.subtitle{
+  padding-left: 6rem;
 }
