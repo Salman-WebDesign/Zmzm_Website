@@ -36,11 +36,12 @@
         right: 0;
     }
 
-    /* .ps-section--deals {
-
-        margin-left: -41px !important;
-    } */
-
+.s-slider-block__display-all{
+    padding-left: 7px;
+}
+.s-slider-block__title-left{
+    padding-left: 0px;
+}
 
     .z-block {
         padding: 0;

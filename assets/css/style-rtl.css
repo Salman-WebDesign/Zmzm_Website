@@ -26,6 +26,7 @@
   --transparent-black:#00000014;
   --prue-black:#0000;
   --wihte:#fff;
+  --opacity-white:#ffffff8f ;
   --grayish-silver:#bcbcbc ;
   --pale-cream:#f6f7e5;
   --anti-flash-white:#f3f3f3;
@@ -8158,7 +8159,7 @@ margin-bottom: 0px !important;
 }
 
 .ps-search-table {
-  background-color: var(--wihte);
+  background-color: var(--opacity-white);
   border-radius: 30px;
   position: relative;
   border: 1px solid var(--second_color);
@@ -14009,15 +14010,17 @@ margin-bottom: 0px !important;
 
 /*4. MODULES */
 .ps-header {
-  display: none;
   padding: 0 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--background);
+
+
 }
 
-
+.ps-header.hide {
+  top: -100px; }
 
 .ps-header .ps-header__middle {
   padding-top: 4px;
@@ -14109,10 +14112,6 @@ margin-bottom: 0px !important;
   min-width: max-content;
   text-align: center;
 }
-
-/* .ps-header .ps-logo .sticky-logo {
-  display: none;
-} */
 
 .ps-header .ps-top__menu {
   float: left;
@@ -14295,7 +14294,7 @@ margin-bottom: 0px !important;
   width: 100%;
   z-index: 999;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  animation: slideDown 0.7s ease-out;
+  animation: slideDown 0.2s ease-out;
 }
 
 @keyframes slideDown {
@@ -14309,7 +14308,6 @@ margin-bottom: 0px !important;
 }
 
 .ps-header.ps-header--sticky .ps-menu--sticky {
-  display: none;
   align-items: center;
   justify-content: center;
 }

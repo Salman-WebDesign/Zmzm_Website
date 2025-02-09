@@ -22,6 +22,7 @@
 
 .s-block--categories a:hover img {
     transform: translateY(-10px);
+    transition: .2s;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
@@ -102,7 +103,7 @@
 
 .owl-carousel .owl-nav {
     left: 32px !important;
-    padding-bottom: 64px;
+    padding-bottom: 72px;
 }
 
 .owl-carousel .owl-nav .owl-prev {
@@ -712,7 +713,7 @@
     position: absolute;
     right: 0px;
     left: 0px;
-    top: 11px;
+    top: 0px;
     padding-left: 42px;
     cursor: pointer;
 }
@@ -721,7 +722,7 @@
     padding-left: 74px;
     color: var(--second_color);
     font-weight:600;
-    line-height: 16px;
+    line-height: 30px;
   
 }
 .s-slider-block__display-all:hover{
