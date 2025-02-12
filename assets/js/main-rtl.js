@@ -117,17 +117,19 @@ $(document).ready(function () {
             },
           });
 
-          // el.on('change.owl.carousel', function (event) {
-          //     var $currentItem = $('.owl-item', el).eq(event.item.index);
-          //     var $elemsToanim = $currentItem.find("[data-animation-out]");
-          //     setAnimation($elemsToanim, 'out');
-          // });
+          // إضافة aria-label إلى أزرار التنقل
+          setTimeout(function() {
+            var prevButton = el.find('.owl-prev');
+            var nextButton = el.find('.owl-next');
 
-          // el.on('changed.owl.carousel', function (event) {
-          //     var $currentItem = $('.owl-item', el).eq(event.item.index);
-          //     var $elemsToanim = $currentItem.find("[data-animation-in]");
-          //     setAnimation($elemsToanim, 'in');
-          // });
+            if (prevButton.length > 0) {
+              prevButton.attr('aria-label', 'Previous');
+            }
+
+            if (nextButton.length > 0) {
+              nextButton.attr('aria-label', 'Next');
+            }
+          }, 0); // استخدام setTimeout للتأكد من أن الأزرار موجودة في الـ DOM
         }
       });
     }

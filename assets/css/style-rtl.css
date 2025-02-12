@@ -14010,6 +14010,7 @@ margin-bottom: 0px !important;
 
 /*4. MODULES */
 .ps-header {
+  display:none;
   padding: 0 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
@@ -14019,8 +14020,6 @@ margin-bottom: 0px !important;
 
 }
 
-.ps-header.hide {
-  top: -100px; }
 
 .ps-header .ps-header__middle {
   padding-top: 4px;
@@ -14112,6 +14111,10 @@ margin-bottom: 0px !important;
   min-width: max-content;
   text-align: center;
 }
+
+/* .ps-header .ps-logo .sticky-logo {
+  display: none;
+} */
 
 .ps-header .ps-top__menu {
   float: left;
